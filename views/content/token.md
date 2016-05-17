@@ -392,7 +392,7 @@ It's also possible to add a mathematical formula, so that anyone who can do math
 
 Of course while calculating cubic roots can be hard for someone to do on their heads, they are very easy with a calculator, so this game could be easily broken by a computer. Also since the last winner can choose the next challenge, they could pick something they know and therefore would not be a very fair game to other players. There are tasks that are easy for humans but hard for computers but they are usually very hard to code in simple scripts like these. Instead a fairer system should be one that is very hard for a computer to do, but isn't very hard for a computer to verify. A great candidate would be to create a hash challenge where the challenger has to generate hashes from multiple numbers until they find one that is lower than a given difficulty.
 
-This process was first proposed by Adam Back in 1997 as [Hashcash](https://en.wikipedia.org/wiki/Hashcash) and then was implemented in Bitcoin by Satoshi Nakamoto as **Proof of work** in 2008. Ethereum was launched using such system for it's security model, but is planning to move from a Proof of Work security model into a [mixed proof of stake and betting system called *Casper*](https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/).
+This process was first proposed by Adam Back in 1997 as [Hashcash](https://en.wikipedia.org/wiki/Hashcash) and then was implemented in Bitcoin by Satoshi Nakamoto as **Proof of work** in 2008. Ethereum was launched using such a system for it's security model, but is planning to move from a Proof of Work security model into a [mixed proof of stake and betting system called *Casper*](https://blog.ethereum.org/2015/12/28/understanding-serenity-part-2-casper/).
 
 But if you like Hashing as a form of random issuance of coins, you can still create your own ethereum based currency that has a proof of work issuance:
 
@@ -561,7 +561,7 @@ If you add all the advanced options, this is how the final code should look like
 
 #### Deploying
 
-Scroll down and you'll see an estimated cost for deployment. If you want you can change the slider to set a smaller fee, but if the price is too below the average market rate your transaction might take longer to pick up. Click *Deploy* and type your password. After a few seconds you'll be redirected to the dashboard and under **Latest transactions** you'll see a line saying "creating contract". Wait for a few seconds for someone to pick your transaction and then you'll see a slow blue rectangle representing how many other nodes have seen your transaction and confirmed them. The more confirmations you have, the more assurance you have that your code has been deployed.
+Scroll down and you'll see an estimated cost for deployment. If you want you can change the slider to set a smaller fee, but if the price is too below the average market rate your transaction might take longer to pick up. Click *Deploy* and type your password. After a few seconds you'll be redirected to the dashboard and under **Latest transactions** you'll see a line saying "creating contract". Wait for a few seconds for someone to pick your transaction and then you'll see a slow blue rectangle, representing how many other nodes have seen and confirmed your transaction. The more confirmations you have, the more assurance you have that your code has been deployed.
 
 ![Created Token](/images/tutorial/created-token.png)
 
