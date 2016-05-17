@@ -164,7 +164,7 @@ Finally we now need something called **Events**. These are special, empty functi
 
 And then you just need to add these two lines inside the "transfer" function:
 
-        /* Notifiy anyone listening that this transfer took place */
+        /* Notify anyone listening that this transfer took place */
         Transfer(msg.sender, _to, _value);
 
 And now your token is ready!
@@ -187,7 +187,7 @@ You'll be redirected to the front page where you can see your transaction waitin
 
 If you send it to a friend, they will not see anything in their wallet yet. This is because the wallet only tracks tokens it knows about, and you have to add these manually. Now go to the "Contracts" tab and you should see a link for your newly created contract. Click on it to go to it's page. Since this is a very simple contract page there isn't much to do here, just click "copy address" and paste the contract address on a text editor, you'll need it shortly.
 
-To add a token to watch, go to the contracts page and then click "Watch Token". A pop-up will appear and you only need to paste the contract address. The token name, symbol and decimal number should be automatically filled but if it's not you can put anything you want (it will only affect how it displays on your wallet). Once you do this, you'll automatically be shown any balance you have of that token and you'll be able to send it to anyone else.
+To add a token to watch, go to the contracts page and then click "Watch Token". A pop-up will appear and you only need to paste the contract address. The token name, symbol and decimal number should be automatically filled but if it's not, you can put anything you want (it will only affect how it displays on your wallet). Once you do this, you'll automatically be shown any balance you have of that token and you'll be able to send it to anyone else.
 
 [![Ethereum Wallet Beta 4 Screen Shot 2015-12-03 at 9.44.42 AM](/images/tutorial/Screen-Shot-2015-12-03-at-9.44.42-AM.png)](/images/tutorial/Screen-Shot-2015-12-03-at-9.44.42-AM.png)
 
@@ -239,7 +239,7 @@ This means that all the functions inside **MyToken** now can access the variable
         string tokenSymbol,
         address centralMinter
         ) {
-        if(centralMinter != 0 ) owner = msg.sender;
+        if (centralMinter != 0 ) owner = msg.sender;
 
 #### Central Mint
 
